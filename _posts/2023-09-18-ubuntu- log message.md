@@ -1,6 +1,7 @@
 ---
-layout: 우분투 리눅스 에러 로그와 접근로그 실시간 보는 방법
----
+layout: post
+title: 우분투 리눅스 에러 로그와 접근로그 실시간 보는 방법
+content:  
 실시간 접근 :sudo tail -f /var/log/apache2/access.log
 실시간 에러 로그 보기:sudo tail -f /var/log/apache2/error.log
 
@@ -54,3 +55,5 @@ secure 확인하기:   sudo cat /var/log/secure
 wtmp 확인하기:   last
 fail2ban.log 확인하기:   sudo cat /var/log/fail2ban.log
 
+categories: develop
+--------
